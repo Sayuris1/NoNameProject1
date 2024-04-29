@@ -21,7 +21,9 @@ public class ClientMainPage : MonoBehaviour
     public void JoinGame()
     {
         // Copied from NetworkManagerHUD.cs
-        _nwManager.networkAddress = RoomCodeText.text;
+        string networkAddress = RoomCodeText.text.Remove(RoomCodeText.text.Length - 1);
+
+        _nwManager.networkAddress = networkAddress;
         if (Transport.active is PortTransport portTransport)
         {
             if (ushort.TryParse(portTransport.Port.ToString(), out ushort port))
