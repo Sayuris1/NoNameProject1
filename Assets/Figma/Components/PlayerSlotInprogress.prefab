@@ -31,7 +31,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8163757137537376777}
+  - {fileID: 4100116556020620996}
   - {fileID: 736337937999873297}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -240,7 +240,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1001 &773901008442928610
+--- !u!1001 &4832508952366911791
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -248,7 +248,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5649128996491103494}
     m_Modifications:
-    - target: {fileID: 1124950945498170100, guid: e5a3e55fe2660d344b1487d2b112e262, type: 3}
+    - target: {fileID: 1348775695966093254, guid: e5a3e55fe2660d344b1487d2b112e262, type: 3}
       propertyPath: NodeId
       value: 32:198
       objectReference: {fileID: 0}
@@ -350,48 +350,23 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3513096596426468090, guid: e5a3e55fe2660d344b1487d2b112e262, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1415616857095666104}
+      addedObject: {fileID: 5909274978884421566}
     - targetCorrespondingSourceObject: {fileID: 5755017447799550751, guid: e5a3e55fe2660d344b1487d2b112e262, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4576865757063764320}
+      addedObject: {fileID: 3242030424680043013}
   m_SourcePrefab: {fileID: 100100000, guid: e5a3e55fe2660d344b1487d2b112e262, type: 3}
---- !u!1 &4214371307651630872 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3513096596426468090, guid: e5a3e55fe2660d344b1487d2b112e262, type: 3}
-  m_PrefabInstance: {fileID: 773901008442928610}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1415616857095666104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4214371307651630872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: 120
-  m_MinHeight: 120
-  m_PreferredWidth: 120
-  m_PreferredHeight: 120
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
---- !u!1 &4999170672732856061 stripped
+--- !u!1 &922508575014511152 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5755017447799550751, guid: e5a3e55fe2660d344b1487d2b112e262, type: 3}
-  m_PrefabInstance: {fileID: 773901008442928610}
+  m_PrefabInstance: {fileID: 4832508952366911791}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4576865757063764320
+--- !u!114 &3242030424680043013
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4999170672732856061}
+  m_GameObject: {fileID: 922508575014511152}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
@@ -405,8 +380,33 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!224 &8163757137537376777 stripped
+--- !u!224 &4100116556020620996 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8932343408391294955, guid: e5a3e55fe2660d344b1487d2b112e262, type: 3}
-  m_PrefabInstance: {fileID: 773901008442928610}
+  m_PrefabInstance: {fileID: 4832508952366911791}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8345596668826860501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3513096596426468090, guid: e5a3e55fe2660d344b1487d2b112e262, type: 3}
+  m_PrefabInstance: {fileID: 4832508952366911791}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5909274978884421566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8345596668826860501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: 120
+  m_MinHeight: 120
+  m_PreferredWidth: 120
+  m_PreferredHeight: 120
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1

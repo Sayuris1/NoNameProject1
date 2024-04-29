@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DocumentUrl: https://www.figma.com/file/YA4g6rpF0aRZo8kBH9bXP3/Proto?type=design&node-id=0-1&mode=design&t=8oPVIdUeoVYWU2oU-0
   BuildPrototypeFlow: 1
-  RunTimeAssetsScenePath: Assets/Scenes/SampleScene.unity
+  RunTimeAssetsScenePath: Assets/Scenes/PC.unity
   EnableAutoLayout: 1
   ScreenBindingNamespace: 
   ServerRenderImageScale: 3
@@ -22,4 +22,10 @@ MonoBehaviour:
   CreateScreenNameCSharpFile: 0
   GenerateNodesMarkedForExport: 1
   OnlyImportSelectedPages: 0
-  PageDataList: []
+  PageDataList:
+  - Name: Mockup
+    NodeId: 0:1
+    Selected: 1
+  - Name: Components
+    NodeId: 3:29
+    Selected: 1
