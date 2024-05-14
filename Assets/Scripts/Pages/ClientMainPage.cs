@@ -31,5 +31,8 @@ public class ClientMainPage : MonoBehaviour
         }
 
         _nwManager.StartClient();
+
+        // Set inital datas
+        ClientSingleton.Instance.PlayerData.Name = NickNameText.text;
     }
 }

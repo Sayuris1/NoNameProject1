@@ -25,7 +25,7 @@ public class ServerMainPage : MonoBehaviour
             return;
         }
 
-        _nwManager.networkAddress = _nwManager.networkAddress;
+        //_nwManager.networkAddress = _nwManager.networkAddress;
         if (Transport.active is PortTransport portTransport)
         {
             if (ushort.TryParse(portTransport.Port.ToString(), out ushort port))
